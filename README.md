@@ -54,6 +54,9 @@ The ROC AUC score of three teams are fairly close. This hackaton shows the advan
 The team also have an interesting finding. Because the train data is unbalanced (i.e., class 1 : class 2 = 3 : 1), when we split the data using train/test split, we would normally apply the argument: 'stratify=y'. When we apply, GridSearch only uses 114 trees to find the best model. Without such argument, the best model needs the upper limit (500 models) to produce the best model. Becuase we are uncertain whether the testing data is as unbalanced as the training data, the team believe it would be benefitial to not use 'stratify=y' and use more trees to account for more randomness. This approach seems work well.
 
 
+Note: the Jupyter Notebook in this repo is the cleaned version of the effort from the entire team.
+
+
 
 
 
